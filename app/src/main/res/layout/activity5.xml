@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCF3CF"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/resume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="60dp"
+        android:text="merci pour votre confiance à notre snack,votre demende est bien enregistré.Vous serez la recevoir aprés 1H30min à l'adress que vous avez la saisir "
+        android:textColor="#FF000000"
+        android:textSize="30dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        />
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCF3CF"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="60dp"
+        android:text="total"
+        android:textColor="#636254"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+         />
+    <EditText
+        android:id="@+id/ADR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="saisir votre Adress"
+        android:textSize="20dp"
+        android:layout_marginBottom="12dp"
+        />
+    <TextView
+        android:id="@+id/addr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="*L'adress est obligatoire"
+        android:textColor="@color/rouge"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="35dp"/>
+    <EditText
+        android:id="@+id/numcarte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="saisir le numéro de votre carte"
+        android:textSize="15dp"
+        android:inputType="numberPassword"
+        android:layout_marginBottom="12dp"
+        />
+    <TextView
+        android:id="@+id/CRT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="*Ce numéro est obligatoire"
+        android:textColor="@color/rouge"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="35dp"/>
+    <EditText
+        android:id="@+id/nume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="saisir votre numéro exact"
+        android:textSize="20dp"
+        android:inputType="phone"
+        android:layout_marginBottom="16dp"
+        />
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="*Le numéro est obligatoire"
+        android:textColor="@color/rouge"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="35dp"/>
+    <Button
+        android:id="@+id/click"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Confermer"
+        android:textColor="#636254"
+        android:layout_marginBottom="17dp"
+        android:backgroundTint="#FCE72F"
+        />
+    <Button
+        android:id="@+id/ret"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Retour"
+        android:textColor="#636254"
+        android:backgroundTint="#FCE72F"
+        />
+
+
+</LinearLayout>

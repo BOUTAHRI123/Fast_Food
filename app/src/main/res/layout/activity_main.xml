@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints"
+    android:id="@+id/linearLayout"
+    android:background="@drawable/food">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="#FFFFE0"
+        android:text="Bienvenue"
+        android:textColor="#EEDA33"
+        android:textSize="100px"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"/>
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="saisir votre nom "
+        android:textSize="50px"
+        android:inputType="text"
+        />
+    <TextView
+        android:id="@+id/nnom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="*Le nom est obligatoire"
+        android:textColor="@color/rouge"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="saisir votre prénom"
+        android:textSize="50px"
+        android:inputType="text"
+        />
+    <TextView
+        android:id="@+id/pprenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="*Le prénom est obligatoire"
+        android:textColor="@color/rouge"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="saisir votre adresse mail"
+        android:textSize="50px"
+        android:inputType="textEmailAddress"
+        />
+    <TextView
+        android:id="@+id/mmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="*L'email est obligatoire"
+        android:textColor="@color/rouge"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="saisir votre numéro"
+        android:textSize="50px"
+        android:inputType="phone"
+        />
+    <TextView
+        android:id="@+id/ttelephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="*Le telephone est obligatoire"
+        android:textColor="@color/rouge"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="50dp"/>
+    <Button
+        android:id="@+id/click"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="se connecter"
+        android:textColor="#636254"
+        android:backgroundTint="#FCE72F"
+        />
+
+
+</LinearLayout>
